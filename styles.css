@@ -1,0 +1,121 @@
+html {
+    margin: 0;
+}
+
+body {
+    background-color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif !important;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    margin-top: 20px;
+    background-color: rgba(214, 197, 178, 0.5);
+}
+
+.navbar-brand {
+    font-family: 'Lora', serif;
+}
+
+.gastro {
+    font-family: 'League Spartan', sans-serif;
+    font-size: larger;
+}
+
+.logo-description {
+    width: 90%;
+    margin: auto;
+    font-family: 'Lora', serif;
+    color: #D6C5B2;
+    text-align: center;
+}
+
+.motto {
+    color: #A48665;
+}
+
+.about, .footer {
+    background-color: #fcfcf4;
+    color:#333;
+}
+
+.services {
+    color: #fcfcf4;
+}
+
+.reviews {
+    background-color: #D6C5B2;
+}
+
+.review, .contact {
+    color:#fcfcf4;
+    background-color: #333;
+}
+
+.carousel-indicators {
+    bottom: 0;
+}
+
+.review-name {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.partners {
+    background-color: #fff;
+}
+
+.partner-logo {
+    max-height: 200px;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 4s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.service:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.service:nth-child(3) {
+    transition-delay: 400ms;
+}
+
+.service:nth-child(4) {
+    transition-delay: 600ms;
+}
+
+.review:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.review:nth-child(3) {
+    transition-delay: 400ms;
+}
+
+.review:nth-child(4) {
+    transition-delay: 600ms;
+}
+
+.review:nth-child(5) {
+    transition-delay: 800ms;
+}
+
